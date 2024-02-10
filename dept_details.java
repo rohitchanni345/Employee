@@ -4,12 +4,8 @@ public class dept_details extends emp_details
     void dept_info()
     {
         Scanner sc = new Scanner(System.in);
-        /*System.out.println("Enter the Department ID : ");
+        System.out.println("Enter deptartment id:");
         int dept_id = sc.nextInt();
-        System.out.println("Enter the Department Name : ");
-        String dept_name = sc.nextLine();*/
-        int dept_id = sc.nextInt();
-        //System.out.print("Department ID : "+dept_id);
         if(dept_id == 1)
         {
              System.out.println("MCA department");
